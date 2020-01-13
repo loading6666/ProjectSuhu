@@ -20,6 +20,7 @@ public class KonversiSuhu {
     public static void main(String[] args) {
         // TODO code application logic here
                 double fahrenheit ;
+		double reamur ;
 
 
 
@@ -29,8 +30,10 @@ public class KonversiSuhu {
         double celcius = 10;
 
         fahrenheit = celcius * 9/5 + 32;
+	reamur = celcius * 4/5;
 
         System.out.println("Hasil konversi suhu dari celcius ke fahrenheit:" +fahrenheit);
+        System.out.println("Hasil konversi suhu dari celcius ke reamur:" +reamur);
     }
     
 }
